@@ -28,8 +28,54 @@ Discussion:
 
 
 
-### 2. Merge Sort 归并排序 - 
+### 2. Merge Sort 归并排序 -O(nLogn)
 
 Like QuickSort, Merge Sort is a **Divide and Conquer algorithm.** It divides the input array into two halves, calls itself for the two halves, and then it merges the two sorted halves. The merge() function is used for merging two halves. The merge(arr, l, m, r) is a key process that assumes that arr[l..m] and arr[m+1..r] are sorted and merges the two sorted sub-arrays into one. 
 
-<div align=center><img width="800"  src="./Pictures/Sorting/1.png"/></div>
+<div align=center><img width="600"  src="./Pictures/Sorting/1.png"/></div>
+
+
+
+**Time Complexity**: **O(nLogn)** as total time = Logn+nLogn
+
+**Space Complexity**: **O(n)** as this is a depth first algorithm(not nLogn), it always merge up before it gets into next tree
+
+Total Space: n+ n/2 + n/4 + n/8 + ... + 1 <= 3n
+
+Return后所有内存资源都会被释放
+
+[MergeSort Space Complexity](https://stackoverflow.com/questions/10342890/merge-sort-time-and-space-complexity)
+
+**Discussion:**
+
+1. Can we merge sort a linked list? What is the time complexity if so?
+
+   **Find Min for Linked list is always is O(n)**, so the total time = nLog + nLog = O(nLogn)
+
+2. 什么是面试中一个类型的题
+
+   a. A1B2C3D4 -> ABCD1234 : 只是combine实现方法不一样
+
+   b. ABCD1234 -> A1B2C3D4
+
+   c. K-way merge and it's application in MapReduce
+
+   ​    e.g. How to merge TB/PB level data? **Algorithm + System design**
+
+   d. Count-Array Problem
+
+### 3. Quick Sort
+
+Like Merge Sort, QuickSort is a Divide and Conquer algorithm. **It picks an element as pivot and partitions the given array around the picked pivot.** There are many different versions of quickSort that pick pivot in different ways. 
+
+<div align=center><img width="600"  src="./Pictures/Sorting/2.png"/></div>
+
+<div align=center><img width="600"  src="./Pictures/Sorting/3.png"/></div>
+
+<div align=center><img width="600"  src="./Pictures/Sorting/4.png"/></div>
+
+<div align=center><img width="600"  src="./Pictures/Sorting/5.png"/></div>
+
+**Rainbow Sort: 三个挡板4个区域**
+
+<div align=center><img width="600"  src="./Pictures/Sorting/6.png"/></div>
