@@ -71,3 +71,58 @@ Class34: 面试技巧，如何问问题，回答问题
 Class35: 简历修改
 
 Class36: Final Exam, Mock Interview
+
+
+
+
+
+
+
+
+
+
+
+**Class1:**
+
+Array & Selection Sort & Merge Sort & Quick Sort
+
+**Boot Camp 1:**
+
+Java IDE, Hello World
+
+Basic Types & Operation (幅值=，判断 ==，变量Variable)
+
+Primitive type(int, long, float, double, char, boolean)
+
+Type Conversion 
+
+**Class2:**
+
+Recursion, 冯诺依曼， 深度优先
+
+斐波那契， 递归计算指数
+
+Binary Search 与其7个变种
+
+2D数组，first occurrence, last occurrence, closest target, k closest target, 字典
+
+**Java Class1:**
+
+JDK(Java Development Kit) & Java IDE(IntelliJ IDEA, Eclipse, Netbeans)
+
+Semantics vs. Implementations(actual execution varies)
+
+OOP: Basic concept, Working with Objects, Objects memory layout
+
+Primitive types vs. Class types
+
+Constructor, this and Null pointer
+
+Final
+
+Static
+
+Access modifier
+
+**Class3:**
+

@@ -1,4 +1,4 @@
-# Recursion
+# Recursion & Binary Search
 
 ## 1. Fibonacci
 
@@ -105,7 +105,7 @@ After finding the closest element, find the left k-1 element from both left and 
 
 ### 3.4 Variant 3:
 
-**Find k element in the array that is closest to the target number**
+
 
 <div align=center><img width="600"  src="./Pictures/Data_Structure/4.png"/></div>
 
