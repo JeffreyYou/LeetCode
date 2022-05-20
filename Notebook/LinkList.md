@@ -81,3 +81,8 @@ Stack 2: <2, stack1.size() = 1>  <1, stack1.size() = 5> <-1, stack1.size() = 12>
 **Only when minimum value enter the stack we should change Stack 2**
 
 ### 2.3 Sort number with 3(or 2) Stack
+
+ <div align=center><img width="600"  src="./Pictures/Data_Structure/6.png"/></div>
+
+### 2.4 Use multiple stack to implement de-queue
+

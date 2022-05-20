@@ -79,3 +79,4 @@ Like Merge Sort, QuickSort is a Divide and Conquer algorithm. **It picks an elem
 **Rainbow Sort: 三个挡板4个区域**
 
 <div align=center><img width="600"  src="./Pictures/Sorting/6.png"/></div>
+
